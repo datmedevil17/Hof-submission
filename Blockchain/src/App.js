@@ -22,6 +22,7 @@ function App() {
 
   return (
     <div className="container">
+    {/* dc */}
       <Routes>
         <Route path="/" element={<Marketplace />} />
         <Route path="/nftPage" element={<NFTPage />} />        
